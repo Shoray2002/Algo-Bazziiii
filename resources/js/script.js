@@ -60,10 +60,3 @@
   //   $("html, body").css({ width: w, height: h });
   // });
 
-
-	$(document).ready(function () {
-    /* ... */
-    var windowHeight = $(window).innerHeight();
-    $("body").css({ height: windowHeight });
-    /* ... */
-  });

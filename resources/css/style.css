@@ -551,6 +551,7 @@ main {
   max-width: 600px;
   transition: 0.4s;
   margin-bottom: 20px;
+/* min-width: 120px; */
 }
 .search-box input {
   display: block;
@@ -583,6 +584,8 @@ main {
 
   .search-box {
     max-width: 350px;
+    min-width:200px;
+    margin-top: 6vh;
   }
   .search {
     width: 40vh;
@@ -594,6 +597,8 @@ main {
 
   .search-box {
     max-width: 200px;
+    min-width:120px;
+    margin-top: 8vh;
   }
   .search-box input {
     font-size: 15px;
@@ -603,3 +608,4 @@ main {
     margin: 5px auto;
   }
 }
+
