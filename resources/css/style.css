@@ -551,7 +551,7 @@ main {
   max-width: 600px;
   transition: 0.4s;
   margin-bottom: 20px;
-/* min-width: 120px; */
+  /* min-width: 120px; */
 }
 .search-box input {
   display: block;
@@ -570,6 +570,9 @@ main {
 
 @media only screen and (max-width: 1200px) {
   /*Tablets [601px -> 1200px]*/
+  .gauge{
+  transform: scale(1.05);
+}
   .search-box {
     max-width: 400px;
   }
@@ -581,10 +584,12 @@ main {
 
 @media only screen and (max-width: 600px) {
   /*Big smartphones [426px -> 600px]*/
-
+.gauge{
+  transform: scale(0.9);
+}
   .search-box {
     max-width: 350px;
-    min-width:200px;
+    min-width: 200px;
     margin-top: 6vh;
   }
   .search {
@@ -594,10 +599,12 @@ main {
 }
 @media only screen and (max-width: 425px) {
   /*Small smartphones [325px -> 425px]*/
-
+.gauge{
+  transform: scale(0.6);
+}
   .search-box {
     max-width: 200px;
-    min-width:120px;
+    min-width: 120px;
     margin-top: 8vh;
   }
   .search-box input {
@@ -609,3 +616,25 @@ main {
   }
 }
 
+/* gauge */
+.chart-gauge {
+  width: 400px;
+  margin: 3vh auto;
+}
+
+.chart-color1 {
+  fill: #7DEDFF;
+}
+
+.chart-color2 {
+  fill: #67B0FF;
+}
+
+.chart-color3 {
+  fill: #2C40D0
+}
+
+.needle,.needle-center{
+  z-index: 100;
+  fill: #114467;
+}
