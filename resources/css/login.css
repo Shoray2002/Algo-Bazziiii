@@ -287,3 +287,16 @@ h6 span{
 	width: auto;
 	display: block;
 }
+
+
+.alt {
+  transform: scale(2)!important;
+ 
+}
+.alt i{
+   color:#FFEBA7;
+   transition: 200ms ease-in-out;
+}
+.alt i:hover,i:active{
+  color:#354EFF
+}
